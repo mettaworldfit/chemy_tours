@@ -88,6 +88,16 @@ function ver_comentarios() {
 
     })
 
+    $('.menu-item-has-children').on('click', (e) => {
+      e.preventDefault(e);
+
+      console.log('hollaaa')
+      $('ul.sub-menu').toggleClass('active-child');
+      
+
+    })
+
+
 
   });
 })(this, jQuery);

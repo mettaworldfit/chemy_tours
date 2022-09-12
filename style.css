@@ -91,13 +91,13 @@ p {
 
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1190px) {
     .parallax {
-        height: 210vh;
+        height: 140vh;
     }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 890px) {
     .parallax {
         height: 240vh;
     }
@@ -111,7 +111,7 @@ p {
 
 @media (max-width: 460px) {
     .parallax {
-        height: 287vh;
+        height: 340vh;
     }
 }
 
@@ -152,16 +152,27 @@ p {
 
 .content-hero {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 350px;
     align-items: center;
 }
 
-@media (min-width: 841px) {
+@media (max-width: 1190px) {
     .content-hero {
-        flex-wrap: wrap;
+        grid-template-columns: auto auto;
+        grid-template-rows: 520px 520px 520px;
         justify-content: space-evenly;
-        flex-direction: row;
+       
+    }
+}
+
+@media (max-width: 540px) {
+    .content-hero {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: space-evenly;
+       
     }
 }
 
@@ -424,6 +435,12 @@ header.header {
     line-height: 100px;
 }
 
+@media (max-width: 1024px) {
+    .logo {
+        width: 100%;
+    }
+}
+
 @media (max-width: 640px) {
 
     .logo {
@@ -480,13 +497,13 @@ header.header {
     float: right;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1024px) {
     .nav ul li a {
         font-size: 13px !important;
     }
 }
 
-@media (max-width: 724px) {
+@media (max-width: 1024px) {
 
     .single-servicios .header-down .nav>ul>li>a,
     .single-villas .header-down .nav>ul>li>a,
@@ -501,6 +518,11 @@ header.header {
         background: #353535;
     }
 
+    .container {
+        width: 100% !important;
+        max-width: 100%;
+    }
+
     .menu-btn {
         display: block;
         line-height: 100px;
@@ -508,6 +530,7 @@ header.header {
     }
 
     .nav-area {
+        width: 100%;
         position: relative;
         display: block !important;
         background: white;
@@ -541,6 +564,16 @@ header.header {
     .active {
         position: absolute;
         left: 0;
+        overflow: scroll;
+    }
+
+    .active-child {
+        display: block !important;
+        /* line-height: 65px !important;
+        position: unset !important;
+        text-align: center !important;
+        width: 100% !important;
+        background: #e0e0e0; */
     }
 
     .nav>ul>li {
@@ -560,7 +593,8 @@ header.header {
     }
 
     ul.sub-menu {
-        display: none !important;
+        display: none;
+        
         transition: 0.6s all ease-in;
         -webkit-transition: 0.6s all ease-in;
         -moz-transition: 0.6s all ease-in;
@@ -568,14 +602,7 @@ header.header {
         -o-transition: 0.6s all ease-in;
     }
 
-    li.menu-item-has-children:hover ul.sub-menu {
-        line-height: 65px;
-        display: block !important;
-        position: unset;
-        text-align: center;
-        width: 100%;
-        background: #e0e0e0;
-    }
+
 
     ul.sub-menu li {
         padding: 15px 0px;
@@ -692,12 +719,6 @@ ul.sub-menu {
     padding: 0;
 }
 
-.single-villas .header-down ul.sub-menu,
-.page-contact .header-down ul.sub-menu,
-.single-servicios .header-down ul.sub-menu {
-    background: rgb(46 46 46 / 86%);
-}
-
 .header-down ul.sub-menu {
 
     display: none;
@@ -708,6 +729,35 @@ ul.sub-menu {
     list-style: none;
     padding: 0;
 }
+
+@media (max-width: 1024px) {
+    ul.sub-menu {
+        line-height: 65px !important;
+        position: unset !important;
+        text-align: center !important;
+        width: 100% !important;
+        background: #e0e0e0;
+       
+    }
+
+    .header-down ul.sub-menu {
+        line-height: 65px !important;
+        position: unset !important;
+        text-align: center !important;
+        width: 100% !important;
+        background: #e0e0e0;
+      
+    }
+    
+}
+
+.single-villas .header-down ul.sub-menu,
+.page-contact .header-down ul.sub-menu,
+.single-servicios .header-down ul.sub-menu {
+    background: rgb(46 46 46 / 86%);
+}
+
+
 
 ul.sub-menu li:hover {
     background: var(--primary);
@@ -733,14 +783,15 @@ ul.sub-menu li a {
 
 }
 
+@media (min-width: 1024px) {
 
-li.menu-item-has-children:hover ul.sub-menu {
-    display: block;
+    li.menu-item-has-children:hover ul.sub-menu {
+        display: block;
 
+
+    }
 
 }
-
-
 
 /*--------------------------------------------------------/
 * Navegación scroll
@@ -1413,6 +1464,20 @@ a.btn-service:hover {
     width: 80%;
 }
 
+@media (max-width: 1024px) {
+
+    .col-content-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-about {
+        width: 70%;
+        text-align: justify;
+    }
+}
+
 @media (max-width: 560px) {
     .col-content-about {
         display: flex;
@@ -1962,6 +2027,12 @@ ul.social-nav-footer li a:hover {
     color: var(--secondary);
 }
 
+
+li.box-line {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
 .box-line a {
     padding-left: 18px;
