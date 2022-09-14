@@ -7,7 +7,7 @@ get_header(); ?>
 
 <div class="parallax-about">
     <div class="parallax-about-opacity">
-        <div class="content-hero">
+        <div class="hero">
             <h1><?php the_title(); ?></h1>
         </div>
     </div>
@@ -62,10 +62,12 @@ get_header(); ?>
                         <!-- post content -->
                         <?php the_category(); ?>
 
+                        <span class="price-town">$ <?= number_format(get_field('precio')); ?></span>
+
                         <p data-aos="fade-down" data-aos-duration="1400"> <?php the_excerpt(); ?></p>
                         <!-- /post content -->
 
-                        <a href="" class="btn-town" data-aos="fade-up" data-aos-duration="1500">Reservar ahora</a>
+                        <a href="<?php the_permalink(); ?>" class="btn-town" data-aos="fade-up" data-aos-duration="1500" title="<?php the_title_attribute(); ?>">Ver lugar</a>
 
                     </article>
 

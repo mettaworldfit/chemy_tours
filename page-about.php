@@ -8,7 +8,7 @@ get_header(); ?>
 
 <div class="parallax-about-page">
     <div class="parallax-about-opacity">
-        <div class="content-hero">
+        <div class="hero">
             <h1><?php the_title(); ?></h1>
         </div>
     </div>

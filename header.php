@@ -5,39 +5,26 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<title>Chemytours - Excursiones, Tours, Four Wheels y otros más.</title>
 
-	<link href="//www.google-analytics.com" rel="dns-prefetch">
 	<link href="<?php echo esc_url(get_template_directory_uri()); ?>/img/icons/favicon.ico" rel="shortcut icon">
-	<link href="<?php echo esc_url(get_template_directory_uri()); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?>" href="<?php bloginfo('rss2_url'); ?>" />
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="86400">
+
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 	<meta name="language" content="spanish">
 	<meta name="copyright" content="Codev - Code Development">
-	<meta name="author" content="Wilmin José Sánchez">
-	<meta name="keywords" content="tours, viajes, four wheels, villas, alojamientos, jet sky, alquilar catamaran, barcos, comida, playa, playa la ensenada">
-	<meta name="robots" content="index, all, follow">
+	<meta name="author" content="Wilmin José Sánchez, wjose260@gmail.com">
+	<meta name="keywords" content="chemy, chemytours, villa isabella, mamey, Los Hidalgos, red house on the beach, tours, viajes, four wheels, villas, alojamientos, jet sky, alquilar catamaran, barcos, comida, playa, playa la ensenada">
 	<meta itemprop="telephone" content="8299635529">
 
 	<?php wp_head(); ?>
 
-
-	<script>
-		// conditionizr.com
-		// configure environment tests
-		conditionizr.config({
-			assets: '<?php echo esc_url(get_template_directory_uri()); ?>',
-			tests: {}
-		});
-	</script>
-
 </head>
 
 <body <?php body_class(); ?>>
-
-	<!-- wrapper -->
-	<div class="wrapper">
 
 		<header class="header clear" role="banner">
 			<div class="container-header">
@@ -77,3 +64,6 @@
 				</div>
 			</div>
 		</header>
+
+		<!-- wrapper -->
+	<main class="wrapper">

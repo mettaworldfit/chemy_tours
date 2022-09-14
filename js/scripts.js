@@ -30,7 +30,7 @@ function ver_comentarios() {
     $(".owl-carousel").owlCarousel({
       loop: true,
       margin: 0,
-      nav: true,
+      nav: false,
       autoplay: true,
       autoplayTimeout: 10000,
       autoplayHoverPause: true,
