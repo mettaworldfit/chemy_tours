@@ -50,8 +50,8 @@
 						<div class="social-header col-sm-3">
 							<ul class="social-nav">
 
-								<li> <a href=""><i class="fa-brands fa-facebook"></i></a></li>
-								<li> <a href=""><i class="fa-brands fa-instagram"></i></a></li>
+								<li> <a href="https://web.facebook.com/chemy.deleon"><i class="fa-brands fa-facebook"></i></a></li>
+								<li> <a href="www.instagram.com/chemytour/"><i class="fa-brands fa-instagram"></i></a></li>
 
 
 							</ul>

@@ -41,8 +41,8 @@
 
 						<ul class="social-nav-footer">
 							<h5>Siguenos en:</h5>
-							<li> <a href=""><i class="fa-brands fa-facebook"></i></a></li>
-							<li> <a href=""><i class="fa-brands fa-instagram"></i></a></li>
+							<li> <a href="https://web.facebook.com/chemy.deleon"><i class="fa-brands fa-facebook"></i></a></li>
+							<li> <a href="www.instagram.com/chemytour/"><i class="fa-brands fa-instagram"></i></a></li>
 
 
 						</ul>

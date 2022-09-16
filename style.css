@@ -91,7 +91,7 @@ p {
 
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 990px) {
     .parallax {
         height: 140vh;
         background: var(--primary);
@@ -1169,7 +1169,7 @@ a.btn-service:hover {
 .divider {
     width: 100%;
     height: 60vh;
-    background-image: url('img/hero-four-wheel.png');
+    background-image: url('img/four_wheel.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
