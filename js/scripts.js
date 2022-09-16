@@ -5,6 +5,12 @@ function reserva_ahora() {
   element.scrollIntoView();
 }
 
+function servicios() {
+  const element = document.getElementById("service");
+  element.scrollIntoView();
+}
+
+
 function ver_preguntas() {
   const element = document.getElementById("question");
   element.scrollIntoView();

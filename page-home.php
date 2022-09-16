@@ -24,7 +24,7 @@ get_header(); ?>
 
                 <h2>chemy <span>tours</span></h2>
                 <p></p>
-                <a class="button" href="#">Cómo llegar ?</a>
+                <a class="button" href="https://goo.gl/maps/ngsEVqhne6wSFexG6">Cómo llegar ?</a>
             </div>
         </div>
         <div class="item">
@@ -32,8 +32,8 @@ get_header(); ?>
             <div class="slider-text">
 
                 <h2>excursiones <span></span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, beatae.</p>
-                <a class="button" href="#">Reserva ahora</a>
+                <p>Viajes a cayo arena, viajes en catamaran, alquiler de four wheels y más.</p>
+                <a class="button" href="/page-contact.php" onclick="servicios();">Servicios</a>
             </div>
         </div>
         <div class="item">
@@ -77,7 +77,7 @@ get_header(); ?>
 
 <!-- Servicios -->
 
-<div class="section-title">
+<div class="section-title" id="service">
     <h3 class="text-center primary" data-aos="fade-down" data-aos-duration="1000"><span>nuestros</span> Servicios</h3>
     <p class="text-center" data-aos="fade-down" data-aos-duration="1100">Adquiere los mejores servicios de alquiler para disfrutar de un día en familia o con tus amigos.</p>
 </div>

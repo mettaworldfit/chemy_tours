@@ -69,7 +69,7 @@ get_header(); ?>
 
             <div class="col-sm-6">
                 <div class="small-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26775.39189680002!2d-71.0423218109972!3d19.736492028358526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb199be613f2d21%3A0x6392ad80d8ff0ae7!2sMamey%2057000!5e0!3m2!1ses-419!2sdo!4v1662174886424!5m2!1ses-419!2sdo" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <?php echo get_field("mapa"); ?>
                 </div>
 
             </div>
