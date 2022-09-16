@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo-footer.png" class="logo-footer" alt="Logo">
-				<p class="text-footer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil magni labore eligendi, voluptatum placeat eos veritatis omnis consequuntur impedit nesciunt temporibus, quam nam! Similique, ipsum aperiam? Suscipit minima consectetur libero!</p>
+				<p class="text-footer"><?= bloginfo('description')?></p>
 			</div>
 			<div class="col-md-3 p-left">
 

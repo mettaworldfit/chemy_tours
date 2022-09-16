@@ -26,7 +26,7 @@ get_header(); ?>
             <div class="col-info">
                 <span><i class="fa-solid fa-location-dot"></i></span>
                 <h6>dirección</h6>
-                <p>C/ Duarte #41, próximo a la playa la ensenada.</p>
+                <p>Carretera, Punta Rucia 57000 ,al lado de Red House On The Beach </p>
             </div>
 
             <div class="col-info">
@@ -46,7 +46,7 @@ get_header(); ?>
             <div class="col-info">
                 <span><i class="fa-solid fa-clock-rotate-left"></i></span>
                 <h6>Horarío</h6>
-                <p>Lun-vie: 8 am - 6 pm</p>
+                <p>Lun-vie: 8 am - 5 pm</p>
                 <p>Sab-dom: 8 am - 5 pm</p>
             </div>
 
@@ -69,7 +69,7 @@ get_header(); ?>
 
             <div class="col-sm-6">
                 <div class="small-map">
-                <?php echo get_field("mapa"); ?>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15010.34034408213!2d-71.207891!3d19.8575014!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c55406d03d5fa17!2sChemytours!5e0!3m2!1ses-419!2sdo!4v1663341849873!5m2!1ses-419!2sdo" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
             </div>

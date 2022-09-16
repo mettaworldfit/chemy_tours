@@ -59,7 +59,7 @@ get_header(); ?>
                     <span data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Sobre nosotros</span>
                 </div>
                 <div class="col-sm-4 about-two">
-                    <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati fuga praesentium sapiente omnis alias provident exercitationem, numquam ipsam, quisquam ducimus repellendus tempora quidem nesciunt voluptatem iste distinctio voluptate aliquid quam?</p>
+                    <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"><?= bloginfo('description')?></p>
                     <br>
                     <a href="#" class="btn-about" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">Contactanos</a>
                 </div>
