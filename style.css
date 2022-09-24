@@ -925,6 +925,9 @@ ul.sub-menu li a {
     background: rgba(0, 0, 0, 0.636);
 }
 
+.owl-carousel { 
+    z-index: 0 !important;
+}
 
 
 

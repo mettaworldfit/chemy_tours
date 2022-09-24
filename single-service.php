@@ -12,10 +12,10 @@ get_header(); ?>
         <div class="bar-cpt">
             <ul>
                 <a href="javascript:void(0)" onclick="ver_informacion();">
-                    <li>Información </li>
+                    <li>Descripción </li>
                 </a>
                 <a href="javascript:void(0)" onclick="ver_preguntas();">
-                    <li>Pregúntas</li>
+                    <li>Información</li>
                 </a>
                 <a href="javascript:void(0)" onclick="ver_comentarios();">
                     <li>Comentarios</li>
@@ -72,7 +72,7 @@ get_header(); ?>
                     <div class="description-cpt">
 
                         <div class="divider-info">
-                            <h3 id="question" data-aos="fade-up" data-aos-duration="1000">Información</h3>
+                            <h3 id="question" data-aos="fade-up" data-aos-duration="1000">Descripción</h3>
                         </div>
                         <p id="information" data-aos="fade-down" data-aos-duration="1100"> <?php the_content(); ?></p>
 
@@ -84,16 +84,13 @@ get_header(); ?>
 
                         <!-- Políticas -->
                         <div class="divider-info">
-                            <h3 id="question" data-aos="fade-up" data-aos-duration="1000">Pregúntas</h3>
+                            <h3 id="question" data-aos="fade-up" data-aos-duration="1000">Información</h3>
 
                             <div class="readme" data-aos="fade-up" data-aos-duration="1000">
                                 <?php echo get_field("politicas") ?>
                             </div>
                         </div>
                         <!-- Políticas -->
-
-
-
 
                         <!-- Form comentarios -->
                         <?php get_template_part("template_part/comment_form") ?>
@@ -117,7 +114,7 @@ get_header(); ?>
 
                         <a href="" class="btn-price">Solicitar reserva</a>
                         <p>Sin compromiso</p>
-                        <a class="term" href="javascript:void(0)" onclick="ver_preguntas();">Pregúntas sobre el servicio</a>
+                        <a class="term" href="javascript:void(0)" onclick="ver_preguntas();">Información sobre el servicio</a>
 
                         <div class="total-price">
                             <span>Total (USD)</span>
@@ -132,6 +129,31 @@ get_header(); ?>
             </article>
             <!-- Article -->
 
+
+            <!-- Reservar -->
+            <section class="reserv-container" id="reservation">
+                <div class="container">
+                    <div class="row section-title">
+                        <h3 class="text-center primary" data-aos="fade-down" data-aos-duration="1000"><span>Reserva</span> ahora</h3>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-md-6 gif-center">
+                            <img style="width: 70%" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/contact-center.gif" alt="">
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <!-- Formulario de reservación de Forminator -->
+                            <?php echo get_field('reservacion'); ?>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reservar -->
 
 
 

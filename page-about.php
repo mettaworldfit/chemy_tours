@@ -19,7 +19,7 @@ get_header(); ?>
         <div class="row text-center">
         <span data-aos="fade-up" data-aos-offset="300">¿Qué hacemos?</span>
             <h1 data-aos="fade-up" data-aos-offset="300">Servicios</h1>
-            <p data-aos="fade-up" data-aos-offset="300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ea saepe autem sed quo eligendi quae vitae illum aperiam nam excepturi rerum, officiis, culpa asperiores fugiat omnis odio! Enim, eligendi.</p>
+            <p data-aos="fade-up" data-aos-offset="300">Somos una empresa dedicada a brindar servicios turísticos de aventura, ecológico, alojamiento, entre otros. Con nosotros puedes descubrir la amplia variedad de servicios que existen en la provincia de Puerto Plata y el país.</p>
         </div>
     </div>
 </div>
