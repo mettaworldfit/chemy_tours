@@ -112,7 +112,7 @@ get_header(); ?>
                             </div>
                         </div>
 
-                        <a href="" class="btn-price">Solicitar reserva</a>
+                        <a href="javascript:void(0)" class="btn-price">Solicitar reserva</a>
                         <p>Sin compromiso</p>
                         <a class="term" href="javascript:void(0)" onclick="ver_preguntas();">Información sobre el servicio</a>
 
