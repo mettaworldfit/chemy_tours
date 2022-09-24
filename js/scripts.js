@@ -1,7 +1,7 @@
 // Mandar a la direccion del id
 
 function reserva_ahora() {
-  const element = document.getElementById("reservation");
+  const element = document.getElementById("reserv");
   element.scrollIntoView();
 }
 

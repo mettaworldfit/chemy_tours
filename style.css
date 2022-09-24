@@ -1876,6 +1876,7 @@ span.price-town {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
+    cursor: pointer;
     margin-top: 10px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1911,7 +1912,7 @@ input.input-cant {
 
 .total {
     width: 30%;
-    color: #555;
+    color: black;
     font-weight: bold;
     font-size: 18px;
     border: none;

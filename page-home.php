@@ -33,7 +33,7 @@ get_header(); ?>
 
                 <h2>excursiones <span></span></h2>
                 <p>Viajes a cayo arena, viajes en catamaran, alquiler de four wheels y más.</p>
-                <a class="button" href="/page-contact.php" onclick="servicios();">Servicios</a>
+                <a class="button" href="javascript:void(0)" onclick="servicios();">Servicios</a>
             </div>
         </div>
         <div class="item">
@@ -61,7 +61,7 @@ get_header(); ?>
                 <div class="col-sm-4 about-two">
                     <p data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"><?= bloginfo('description')?></p>
                     <br>
-                    <a href="#" class="btn-about" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">Contactanos</a>
+                    <a href="javascript:void(0)" class="btn-about" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" onclick="reserva_ahora()">Contactanos</a>
                 </div>
                 <div class="col-sm-4 about-three">
 
@@ -85,7 +85,7 @@ get_header(); ?>
 
 <div class="parallax">
     <div class="parallax-opacity">
-        <div class="content-hero">
+        <div class="content-hero" id="service">
 
 
 
@@ -204,7 +204,7 @@ get_header(); ?>
 
 
 
-<section class="reserv-container" id="reservation">
+<section class="reserv-container" id="reserv">
     <div class="container">
         <div class="row section-title">
             <h3 class="text-center primary" data-aos="fade-down" data-aos-duration="1000"><span>Envíanos un</span> mensaje</h3>
