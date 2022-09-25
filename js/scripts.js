@@ -78,24 +78,19 @@ function ver_comentarios() {
     //  Menu móvil
 
     $(".menu-btn").on("click", (e) => {
-      e.preventDefault(e);
+      e.preventDefault();
 
       $(".nav").toggleClass("active");
     });
 
-    $("li.menu-item-has-children").on("click", (e) => {
-      e.preventDefault(e);
 
-      $("ul.sub-menu").toggleClass("active-child");
-    });
-
+// Boton de reservación
 
     $("#reservation").hide();
 
     $(".btn-price").on("click", (e) => {
       e.preventDefault();
 
-      console.log('holee')
       $("#reservation").show();
 
       const element = document.getElementById("reservation");

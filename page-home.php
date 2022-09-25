@@ -42,7 +42,7 @@ get_header(); ?>
 
                 <h2>Creative <span>Agency</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, beatae.</p>
-                <a class="button" href="#">Contactanos</a>
+                <a class="button" href="javascript:void(0)" >Contactanos</a>
             </div>
         </div>
     </div>
@@ -204,9 +204,9 @@ get_header(); ?>
 
 
 
-<section class="reserv-container" id="reserv">
+<section class="reserv-container">
     <div class="container">
-        <div class="row section-title">
+        <div class="row section-title" id="reserv">
             <h3 class="text-center primary" data-aos="fade-down" data-aos-duration="1000"><span>Envíanos un</span> mensaje</h3>
         </div>
 
