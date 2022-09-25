@@ -755,7 +755,7 @@ ul.sub-menu {
     }
 
     .header-down ul.sub-menu {
-        line-height: 65px !important;
+        line-height: 42px !important;
         position: unset !important;
         text-align: center !important;
         width: 100% !important;
