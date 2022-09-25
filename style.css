@@ -528,6 +528,13 @@ header.header {
         color: white !important;
     }
 
+    .page-contact .header-down .sub-menu li a,
+    .single-villas .header-down .sub-menu li a,
+    .single-servicios .header-down .sub-menu li a {
+        color: white !important;
+    }
+
+
     .single-servicios .header-down .nav,
     .single-villas .header-down .nav,
     .page-contact .header-down .nav {
@@ -770,7 +777,6 @@ ul.sub-menu {
 .single-servicios .header-down ul.sub-menu {
     background: rgb(46 46 46 / 86%);
 }
-
 
 
 ul.sub-menu li:hover {
