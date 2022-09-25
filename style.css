@@ -175,7 +175,7 @@ p {
         grid-template-columns: auto auto;
         grid-template-rows: 520px 520px 520px;
         justify-content: space-evenly;
-       
+
     }
 }
 
@@ -184,7 +184,7 @@ p {
         grid-template-columns: auto;
         grid-template-rows: auto;
         justify-content: space-evenly;
-       
+
     }
 }
 
@@ -573,7 +573,6 @@ header.header {
         width: 100% !important;
         height: 100vh;
         padding: 0px;
-        line-height: 65px;
 
     }
 
@@ -596,7 +595,7 @@ header.header {
     }
 
     .nav ul li a {
-        font-size: 12px !important;
+        font-size: 10px !important;
         color: black !important;
     }
 
@@ -640,10 +639,19 @@ header.header {
     }
 }
 
+
 .nav ul {
     display: inherit;
     line-height: 100px;
+}
 
+@media (max-width: 540px) {
+
+    .nav ul {
+        display: inherit;
+        line-height: 65px;
+
+    }
 }
 
 .nav>ul>li {
@@ -738,12 +746,12 @@ ul.sub-menu {
 
 @media (max-width: 1024px) {
     ul.sub-menu {
-        line-height: 65px !important;
+        line-height: 42px !important;
         position: unset !important;
         text-align: center !important;
         width: 100% !important;
         background: #e0e0e0;
-       
+
     }
 
     .header-down ul.sub-menu {
@@ -752,9 +760,9 @@ ul.sub-menu {
         text-align: center !important;
         width: 100% !important;
         background: #e0e0e0;
-      
+
     }
-    
+
 }
 
 .single-villas .header-down ul.sub-menu,
@@ -789,15 +797,6 @@ ul.sub-menu li a {
 
 }
 
-/* @media (min-width: 1024px) {
-
-    li.menu-item-has-children:hover ul.sub-menu {
-        display: block;
-
-
-    }
-
-} */
 
 /*--------------------------------------------------------/
 * Navegación scroll
@@ -919,7 +918,7 @@ ul.sub-menu li a {
     background: rgba(0, 0, 0, 0.636);
 }
 
-.owl-carousel { 
+.owl-carousel {
     z-index: 0 !important;
 }
 
@@ -1174,10 +1173,10 @@ a.btn-service:hover {
 
 }
 
-@media (max-width: 540px) { 
+@media (max-width: 540px) {
     .divider {
-       display: none;
-    
+        display: none;
+
     }
 }
 
@@ -1376,9 +1375,9 @@ a.btn-service:hover {
 
 @media (max-width: 450px) {
     .parallax-about-page {
-    width: 100%;
-    height: 80vh;
-    background: var(--secondary);
+        width: 100%;
+        height: 80vh;
+        background: var(--secondary);
     }
 }
 
@@ -1589,7 +1588,7 @@ button.search-submit:hover {
 
 @media (max-width: 540px) {
     .post-town {
-        
+
         border: none;
     }
 }
