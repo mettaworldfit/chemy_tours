@@ -33,21 +33,21 @@ get_header(); ?>
                 <span> <i class="fa-solid fa-phone"></i></span>
                 <h6>télefono</h6>
                 <p>+1 829-963-5529</p>
-                <p>+1 809-000-0000</p>
+                <p>+1 849-394-1516</p>
             </div>
 
             <div class="col-info">
                 <span><i class="fa-solid fa-paper-plane"></i></span>
                 <h6>Correo</h6>
-                <p>info@sitename.com</p>
-                <p>info@sitename.com</p>
+                <p>-</p>
+                <p>-</p>
             </div>
 
             <div class="col-info">
                 <span><i class="fa-solid fa-clock-rotate-left"></i></span>
                 <h6>Horarío</h6>
-                <p>Lun-vie: 8 am - 5 pm</p>
-                <p>Sab-dom: 8 am - 5 pm</p>
+                <p>Lun-vie: 8 am - 6 pm</p>
+                <p>Sab-dom: 8 am - 6 pm</p>
             </div>
 
         </div>
